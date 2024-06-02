@@ -1,2 +1,2 @@
-# Todo App
- Todo application implemented with Node.js and Mongoose
+# Todo List App
+ Todo List application implemented with Node.js and Mongoose
