@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+}

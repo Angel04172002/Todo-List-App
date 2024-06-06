@@ -12,11 +12,6 @@ configExpress(app);
 configHandlebars(app);
 
 
-app.get('/', (req, res) => {
-    res.status(200).send('Home page');
-});
-
-
 app.use(routes);
 
 
