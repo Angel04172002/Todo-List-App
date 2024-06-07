@@ -1,0 +1,101 @@
+body {}
+
+.card img {
+    display: block;
+    height: 60%;
+}
+
+
+
+.card-title {
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.card-body {
+    /*  min-height: 50%;*/
+    /*  font-size: 1.45em;*/
+    padding: 3.4em;
+    padding-bottom: 1em;
+}
+
+.card-text {
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.card-body button {
+    margin-top: 1em;
+    background-color: orange;
+}
+
+
+.changeButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.card-body button:hover {
+    background-color: darkorange;
+}
+
+.search-form {
+    margin-top: 3.5em;
+    margin-bottom: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.like-btn {
+    margin-top: 0.8em;
+}
+
+
+.unlike-btn {
+    margin-top: 0.8em;
+}
+
+
+body {}
+
+.sub-heading {
+    margin-bottom: 1em;
+}
+
+.container-div {
+    color: #AAA;
+    font-size: 1.2em;
+    line-height: 1.4;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+}
+
+
+.container-div p {
+    text-align: left;
+}
+
+
+
+h2 {
+    font-size: 2.7em;
+
+}
+
+h2::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid orange;
+    position: relative;
+    bottom: -6px;
+    margin: 0 auto;
+    margin-top: 0.3em;
+}
