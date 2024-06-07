@@ -10,7 +10,6 @@ router.get('/todoList/all', (req, res) => {
 
 
 router.get('/todoList/create', (req, res) => {
-    //Display form for creating a todo list
 
     res.render('todoListCreate');
 })
