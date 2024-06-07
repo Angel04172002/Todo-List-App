@@ -8,6 +8,14 @@ router.get('/todoList/all', (req, res) => {
     res.render('todoListAll');
 })
 
+
+router.get('/todoList/create', (req, res) => {
+    //Display form for creating a todo list
+
+    res.render('todoListCreate');
+})
+
+
 router.get('/todoList/:id', (req, res) => {
 
     let id = req.params.id;
@@ -16,9 +24,7 @@ router.get('/todoList/:id', (req, res) => {
 });
 
 
-router.get('/todoList', (req, res) => {
-    //Display form for creating a todo list
-})
+
 
 
 router.post('/todoList', (req, res) => {
