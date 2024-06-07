@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 const todoListSchema = new mongoose.Schema({
     name : String,
     description : String,
-    createdOn : Date
+    createdOn : Date,
+    todoItems : mongoose.Collection
 });
+
 
 const TodoList = mongoose.model('todoList', todoListSchema);
 
