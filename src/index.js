@@ -2,6 +2,7 @@
 const express = require('express');
 const configExpress = require('./config/configExpress');
 const configHandlebars = require('./config/configHandlebars');
+
 const routes = require('./router');
 
 const port = 3000;

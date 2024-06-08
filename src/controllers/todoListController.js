@@ -23,9 +23,6 @@ router.get('/todoList/:id', (req, res) => {
 });
 
 
-
-
-
 router.post('/todoList', (req, res) => {
     //Handle POST requets for creating a todo list
 });
