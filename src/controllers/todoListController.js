@@ -5,13 +5,13 @@ const router = express.Router();
 
 router.get('/todoList/all', (req, res) => {
 
-    res.render('todoListAll');
+    res.render('todoList/all');
 })
 
 
 router.get('/todoList/create', (req, res) => {
 
-    res.render('todoListCreate');
+    res.render('todoList/create');
 })
 
 

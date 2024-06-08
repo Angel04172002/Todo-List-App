@@ -8,7 +8,7 @@ router.get('todoList/:todoListId/todoItem/:id', (req, res) => {
     let todoListId = req.params.todoListId;
     let todoItemId = req.params.id;
 
-    res.render('todoItemCreate');
+    res.render('todoItem/create');
 });
 
 
