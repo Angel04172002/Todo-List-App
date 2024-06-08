@@ -1,10 +1,19 @@
 const mongoose = require('mongoose');
 
 const todoListSchema = new mongoose.Schema({
-    name : String,
-    description : String,
-    createdOn : Date,
-    todoItems : mongoose.Collection
+    name : {
+        type : String,
+        required : true,
+        minLength : 3,
+        maxLength : 30
+    },
+    description : {
+        type : String,
+        required : true,
+        minLength : 5,
+        maxLength : 50
+    },
+    createdOn : Date
 });
 
 
